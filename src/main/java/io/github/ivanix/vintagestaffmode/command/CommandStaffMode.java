@@ -2,13 +2,15 @@ package io.github.ivanix.vintagestaffmode.command;
 
 import org.bukkit.entity.Player;
 import org.mineacademy.fo.Common;
+import org.mineacademy.fo.annotation.AutoRegister;
 import org.mineacademy.fo.command.SimpleCommand;
 import org.mineacademy.fo.plugin.SimplePlugin;
 import org.mineacademy.fo.remain.Remain;
 
 import static io.github.ivanix.vintagestaffmode.VintageStaffMode.vanishedPlayers;
 
-public class CommandStaffMode extends SimpleCommand {
+@AutoRegister
+public final class CommandStaffMode extends SimpleCommand {
 
     public CommandStaffMode() {
         super("staffmode/staff");

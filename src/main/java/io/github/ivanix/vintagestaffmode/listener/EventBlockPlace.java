@@ -4,9 +4,11 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.BlockPlaceEvent;
+import org.mineacademy.fo.annotation.AutoRegister;
 
 import static io.github.ivanix.vintagestaffmode.VintageStaffMode.vanishedPlayers;
 
+@AutoRegister
 public final class EventBlockPlace implements Listener {
 
     @EventHandler

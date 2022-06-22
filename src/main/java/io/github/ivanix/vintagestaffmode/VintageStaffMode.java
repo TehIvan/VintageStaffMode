@@ -20,11 +20,6 @@ public final class VintageStaffMode extends SimplePlugin {
 
     @Override
     protected void onReloadablesStart() {
-        registerCommand(new CommandStaffMode());
-        registerEvents(new EventBlockBreak());
-        registerEvents(new EventBlockPlace());
-        registerEvents(new EventPlayerJoin());
-        registerEvents(new EventPlayerQuit());
     }
 
     public static VintageStaffMode getInstance() {

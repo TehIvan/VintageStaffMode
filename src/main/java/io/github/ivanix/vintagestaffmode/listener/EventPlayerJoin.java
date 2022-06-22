@@ -12,6 +12,7 @@ import java.util.UUID;
 
 import static io.github.ivanix.vintagestaffmode.VintageStaffMode.vanishedPlayers;
 
+@AutoRegister
 public final class EventPlayerJoin implements Listener {
 
     @EventHandler
