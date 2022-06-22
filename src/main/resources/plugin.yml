@@ -1,0 +1,4 @@
+name: VintageStaffMode
+version: '${project.version}'
+main: io.github.ivanix.vintagestaffmode.VintageStaffMode
+api-version: 1.18
